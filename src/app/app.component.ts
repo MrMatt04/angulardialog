@@ -7,7 +7,7 @@ import { DialogComponent } from './dialog/dialog.component';
   standalone: true,
   imports: [RouterOutlet, DialogComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'angulardialog';

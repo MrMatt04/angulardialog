@@ -29,7 +29,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatFormFieldModule,
   ],
   templateUrl: './dialog-example.component.html',
-  styleUrl: './dialog-example.component.css',
+  styleUrl: './dialog-example.component.scss',
 })
 export class DialogExampleComponent {
   onsubmit = () => {
