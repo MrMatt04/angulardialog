@@ -1,0 +1,10 @@
+<h2 mat-dialog-title>Lazer 🔫</h2>
+<mat-dialog-content>I will lazer {{ data.name }}</mat-dialog-content>
+<mat-form-field [formGroup]="form">
+  <mat-label>Why should or shouldnt I?</mat-label>
+  <input matInput id="message" [formControl]="form.controls.message" />
+</mat-form-field>
+
+<mat-dialog-actions>
+  <button mat-button (click)="onsubmit()">send</button>
+</mat-dialog-actions>
